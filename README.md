@@ -15,7 +15,9 @@ in the (How_to_ use_ inference_ pakcage.ipynb) jupyter notebook file there are s
 There are 3 files:
 
 inference/Inference : contains a supper calss **Inference** 
+
 inference/confidenceInterval: is a child of the **Inference** class, by instanciate an object of this class the confidence interval is computed.
+
 inference/abTesting: is a child of the **Inference** class, by instanciate an object of this class an AB test is performed.
 
 
