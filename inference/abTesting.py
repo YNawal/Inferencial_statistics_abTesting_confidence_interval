@@ -123,6 +123,8 @@ class abTesting(Inference):
                 section =  self._fill_curve()
                 for sec in section:  
                     plt.fill_between(sec, iq.pdf(sec),color=next(sec_color), label=next(sec_label), alpha = next(transp))
+                plt.title('sampling distribution of the null hypothesis_ {}'.format(self._test_type), fontsize=16)
+                plt.xlabel('means', fontsize=14)
                 plt.legend()
                 plt.show()
         
