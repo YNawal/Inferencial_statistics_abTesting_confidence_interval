@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 12 19:11:13 2019
-
-@author: Nawal Yala
-"""
-
 import numpy as np
 import scipy.stats as st
 from collections import defaultdict
