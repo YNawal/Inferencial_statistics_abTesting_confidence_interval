@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 12 19:15:28 2019
-
-@author: Nawal Yala
-"""
 from inference.Inference import *
 
 class confidenceInterval(Inference):
